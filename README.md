@@ -1,36 +1,26 @@
 # Diwali-Sales-Analysis
 
-**In this project, conducted with Python, the following steps were taken to analyze consumer behavior:**
-
-**Step 1:** Importing libraries and dataset.
-
-**Step 2:** Removing blank or unrelated columns.
-
-**Step 3:** Checking for null values, dropping them, modifying data types, and renaming columns.
-
-**Step 4:** Utilizing describe() for age, orders, and amount.
-
-**Step 5:** Creating a bar chart for gender distribution (female 7832 and male 4307).
-
-**Step 6:** Plotting a bar graph for gender versus total amount (indicating a higher number of female buyers).
-
-**Step 7:** Comparing gender distribution across different age groups through a bar graph, with 26-35 being the most prevalent buyers.
-
-**Step 8:** Plotting another bar graph for total amount versus age groups, revealing that the 26-35 age group spends the most, predominantly comprising females.
-
-**Step 9:** Creating a bar graph to display the top 10 states by orders, highlighting Uttar Pradesh and Maharashtra as the top states.
-
-**Step 10:** Plotting another bar graph for state versus amount of orders, indicating that Uttar Pradesh, Maharashtra, and Karnataka contribute the most to total sales.
-
-**Step 11:** Grouping by marital status and gender, then plotting a bar graph with gender as a legend, showcasing that married women are the primary buyers.
-
-**Step 12:** Generating a count plot for occupation, with IT (1583), healthcare (1408), and aviation (1310) being the top three occupations.
-
-**Step 13:** Plotting a bar graph to illustrate the distribution of sold products across food, clothing, and electronics categories.
-
-**Step 14:** Concluding with a final bar graph showcasing the most sold products along with their respective IDs.
+**Project Overview:** This project aimed to analyze consumer behavior during the Diwali sales period using Python in Jupyter Notebook. The analysis focused on understanding purchasing patterns to help businesses refine their marketing strategies and product offerings.
 
 
-**Conclusion:**
+**Steps and Findings:**
 
-Through a comprehensive analysis of consumer behavior, this project has provided valuable insights into the purchasing patterns and preferences of individuals. The data highlights significant trends such as the dominance of female buyers, particularly in the 26-35 age group, and the influence of marital status on purchasing decisions, with married women emerging as the primary consumers. Moreover, it identifies key contributing states to overall sales, including Uttar Pradesh, Maharashtra, and Karnataka. Additionally, insights into popular occupations and product categories further enrich our understanding of consumer behavior dynamics. By leveraging such insights, businesses can tailor their marketing strategies and product offerings to better cater to the preferences and needs of their target audience, ultimately enhancing customer satisfaction and driving revenue growth.
+1. **Data Preparation:**
+   
+i) Imported libraries and dataset, cleaned the data by removing irrelevant columns, handling null values, and adjusting data types.
+
+2. **Exploratory Data Analysis (EDA):**
+
+i) Gender Distribution: Bar chart showed a higher number of female buyers (7,832) compared to males (4,307), with females also spending more.
+
+ii) Age Analysis: Identified the 26-35 age group as the most active and high-spending demographic, mainly female.
+
+iii) Regional Insights: Uttar Pradesh, Maharashtra, and Karnataka were the top states for orders and total sales.
+
+iv) Marital Status and Occupation: Married women emerged as the primary buyers. IT, healthcare, and aviation were the leading occupational sectors among buyers.
+
+3. **Product Analysis:**
+
+Visualized the distribution of sales across product categories (food, clothing, electronics) and highlighted top-selling products.
+
+**Conclusion:** The analysis revealed key insights into gender and age-based purchasing trends, regional sales contributions, and popular product categories. These insights can help businesses tailor their marketing strategies and optimize product offerings to better meet consumer preferences and boost sales.
